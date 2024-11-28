@@ -35,10 +35,12 @@ Once installed, you can import and use the functions `convertIntoNepaliNumber` a
 import { convertIntoNepaliNumber, convertNumberIntoNpNumWord } from "nepali-number-word";
 
 // Convert number to Nepali numeral format
-convertIntoNepaliNumber(15500055).then(res => console.log(res)); // Outputs Nepali formatted number
+convertIntoNepaliNumber(15500055n).then(res => console.log(res)); // Outputs Nepali formatted number
 
 // Convert number to Nepali words
-convertNumberIntoNpNumWord(15500055).then(res => console.log(res)); // Outputs Nepali words for the number
+convertNumberIntoNpNumWord(15500055n).then(res => console.log(res)); // Outputs Nepali words for the number
+
+// use "n" if you want to use biggest number in its back like convertNumberIntoNpNumWord(15500055n)
 ```
 
 ### Example
