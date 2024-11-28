@@ -1,6 +1,6 @@
 {
   "name": "nepali-number-word",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Convert numbers to Nepali digits or words with format.",
   "main": "index.js",
   "type": "module",
