@@ -48,13 +48,13 @@ convertNumberIntoNpNumWord(15500055).then(res => console.log(res)); // Outputs N
 **Converting Number to Nepali Number Format**  
 If you input `15500055`, the output will be the Nepali number format:
 ```bash
-१५५०००५५
+१,५५,००,०५५
 ```
 
 **Converting Number to Nepali Words**  
 If you input `15500055`, the output will be the Nepali words for the number:
 ```bash
-पाँच लाख पचपन्न हजार पच पचास
+एक करोड पचपन्न लाख पचपन्न
 ```
 
 ### Supported Ranges
