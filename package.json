@@ -1,0 +1,23 @@
+{
+  "name": "nepali-number-word",
+  "version": "1.0.0",
+  "description": "An npm package to convert any number into nepali number with format and  nepali number in  words",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run convert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarpanAdhikari/nepali-number-word.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Darpan Adhikari",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/DarpanAdhikari/nepali-number-word/issues"
+  },
+  "homepage": "https://github.com/DarpanAdhikari/nepali-number-word#readme"
+}
