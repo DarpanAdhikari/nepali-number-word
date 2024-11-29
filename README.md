@@ -33,6 +33,8 @@ Once installed, you can import and use the functions `convertIntoNepaliNumber` a
 
 ```javascript
 import { convertIntoNepaliNumber, convertNumberIntoNpNumWord } from "nepali-number-word";
+// No installation need if you use: <script type="module" src="script.js"></script>
+// import { convertIntoNepaliNumber, convertNumberIntoNpNumWord } from 'https://unpkg.com/nepali-number-word@latest/index.js';
 
 // Convert number to Nepali numeral format
 convertIntoNepaliNumber(15500055).then(res => console.log(res)); // Outputs Nepali formatted number
