@@ -37,12 +37,10 @@ import { convertIntoNepaliNumber, convertNumberIntoNpNumWord } from "nepali-numb
  import { convertIntoNepaliNumber, convertNumberIntoNpNumWord } from 'https://unpkg.com/nepali-number-word@latest/index.js';*/
 
 // Convert number to Nepali numeral format
-convertIntoNepaliNumber(15500055).then(res => console.log(res)); // Outputs Nepali formatted number
+console.log(convertIntoNepaliNumber(15500055)); // Outputs Nepali formatted number
 
 // Convert number to Nepali words
-convertNumberIntoNpNumWord(15500055).then(res => console.log(res)); // Outputs Nepali words for the number
-
-// use "n" if you want to use biggest number in its back (15500055n)
+console.log(convertNumberIntoNpNumWord(15500055)); // Outputs Nepali words for the number
 ```
 
 ### Example
